@@ -1,9 +1,5 @@
 var http = require('http');
 
-var fs = require('fs');
-
-// var readStream = fs.createReadStream(__dirname + '/index.html');
-// var writeStream = fs.createWriteStream(__dirname+'/write.txt');
 
 
 
@@ -28,11 +24,6 @@ server.listen(8080);
 
 
 
-// readStream.on('data',function(chunk){
-//   console.log("new buffer found");
-// writeStream.write(chunk);
-//   console.log(chunk);
-// });
 
 // var server = http.createServer(function(req,res){
 //   console.log(req.url);
